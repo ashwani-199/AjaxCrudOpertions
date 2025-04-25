@@ -32,7 +32,7 @@ ajax_crud_project/
 │   └── urls.py               # Project-level URL configurations
 │
 ├── db.sqlite3                # SQLite database
-├── manage.py                 # Django management script
+├── manage.py     
 
 
 
