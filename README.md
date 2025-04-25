@@ -18,7 +18,22 @@ This project demonstrates how to perform **CRUD (Create, Read, Update, Delete)**
 - Bootstrap (Frontend styling)
 
 ## 📁 Project Structure
-ajax_crud_project/ ├── core/ # Main Django app │ ├── static/ # Static files (CSS, JS) │ ├── templates/ # HTML templates │ ├── urls.py # App-level routes │ ├── views.py # AJAX views │ └── models.py # Database models ├── ajax_crud_project/ │ ├── settings.py # Project settings │ └── urls.py # Project-level routes ├── db.sqlite3 └── manage.py
+
+ajax_crud_project/
+├── core/                     # Main Django app
+│   ├── static/               # Static files (CSS, JS)
+│   ├── templates/            # HTML templates
+│   ├── models.py             # Database models
+│   ├── urls.py               # App-level URL configurations
+│   └── views.py              # Views handling AJAX requests
+│
+├── ajax_crud_project/        # Project configuration
+│   ├── settings.py           # Django settings
+│   └── urls.py               # Project-level URL configurations
+│
+├── db.sqlite3                # SQLite database
+├── manage.py                 # Django management script
+
 
 
 
